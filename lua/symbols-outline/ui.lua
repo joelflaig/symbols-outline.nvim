@@ -1,10 +1,10 @@
 local M = {}
 
 M.markers = {
-  bottom = '└',
-  middle = '├',
+  bottom = '╰',
+  middle = '│',
   vertical = '│',
-  horizontal = '─',
+  horizontal = ' ',
 }
 
 M.hovered_hl_ns = vim.api.nvim_create_namespace 'hovered_item'
